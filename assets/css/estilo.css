@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #baafc4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-decoration-color: #3b234a;
+}
+
+header {
+    background-color: #baafc4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    background-color: #523961;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 300px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  
+
+footer {
+    background-color: #baafc4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+    flex: 1;
+}
+
+
+th, td {
+    padding: 0.75em; /* Aumentei o padding */
+    text-align: left;
+}
+
+th {
+    background-color: #3b234a;
+    color: #fff;
+    
+}
+
+td {
+    background-color: #c3bbc9;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 0.75em; /* Aumentei o padding */
+    margin: 0.25em 0;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Adicionei border-radius */
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #fff;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
+    border-color: #333;
+    outline: none;
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
+}
+
+button {
+    padding: 0.75em 1em; /* Aumentei o padding */
+    margin: 0.25em 0;
+    border: none;
+    background-color: #523961;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b234a;
+}
+
+button:disabled {
+    background-color: #523961;
+    cursor: not-allowed;
+}
